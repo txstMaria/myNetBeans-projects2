@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- editado con XMLSpy v2015 (x64) (http://www.altova.com) por Macario Hernandez Cruz (IPN) -->
+<!-- edited with XMLSpy v2011 rel. 3 sp1 (http://www.altova.com) by Macario (IPN) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="metal">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="band" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name"/>
+							<xs:element name="origin"/>
+							<xs:element name="web" minOccurs="0"/>
+							<xs:element name="video"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

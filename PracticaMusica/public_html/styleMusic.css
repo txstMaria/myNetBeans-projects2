@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/09/2014, 07:38:27 PM
+    Author     : adelasotoalvarezdelcastillo
+*/
+
+body{
+    background-color:  rgba(255, 255, 255, 0.8);
+}
+
+
+header{
+    font-family: sans-serif;
+    color:rgba(0, 0, 43, 0.8);
+}
+
+#todo{
+    width: 1000px;
+    border: 1px solid #FFFFFF;
+    margin: 0 auto;
+    height: 1400px;
+    text-align: center;
+    
+}
+
+#tiesto{
+    background-image: url("tiestoB.png");
+    width: 1000px;
+    height: 450px;
+    background-repeat: no-repeat;
+     text-align: right;
+}
+
+.tiestoE
+{
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 1);   
+}
+
+.tiestoT{
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+#taylor{
+    background-image: url("taylorB.jpg");
+    width: 1000px;
+    height: 450px;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.taylorE{
+    font-family: sans-serif;
+    color: rgba(196, 26, 68, 1);
+}
+
+.taylorT{
+    font-family: sans-serif;
+    color: rgba(196, 26, 68, 1);
+}
+
+#beatles{
+    background-image: url("beatlesB.png");
+    width: 1000px;
+    height: 450px;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.beatlesE{
+    font-family: sans-serif;
+    color: rgba(36, 184, 91, 1);
+}
+
+.beatlesT{
+     font-family: sans-serif;
+     color: rgba(36, 184, 91, 1);
+}
+
+footer{
+    font-family: sans-serif;
+    color: rgba(36, 33, 100, 0.8);
+}
+
+
+
+
